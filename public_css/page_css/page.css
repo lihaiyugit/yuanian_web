@@ -1,0 +1,26 @@
+/* 页面级公共样式  */
+/* pc端  start*/
+/* banner start */
+/* banner end */
+/* 成功案例 SuccessfulCases start */
+/* 成功案例 SuccessfulCasesstart end */
+/* 元年洞察 Insight  start*/
+/* 元年洞察 Insight end */
+/* 了解更多 LearnMore  start*/
+/* 了解更多 LearnMore end */
+/* pc端  end*/
+
+/* 手机端  start*/
+@media screen and (max-width: 1024px){
+/* banner start */
+/* banner end */
+/* 成功案例 SuccessfulCases start */
+/* 成功案例 SuccessfulCasesstart end */
+/* 元年洞察 Insight  start*/
+/* 元年洞察 Insight end */
+/* 了解更多 LearnMore  start*/
+/* 了解更多 LearnMore end */
+}
+/* 手机端  end*/
+
+

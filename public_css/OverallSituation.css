@@ -1,0 +1,205 @@
+/* 公共css*/
+/* pc端 start*/
+/* 全局  start*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, menu, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+img {
+    max-width: 100% !important;
+    vertical-align: middle;
+}
+.clear {
+    clear: both;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+
+body {
+    line-height: 1;
+    font-family: '-apple-system, BlinkMacSystemFont', 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+        'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        'Noto Color Emoji';
+}
+
+menu, ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 全局 end*/
+/* 头部 header css start */
+#header {
+    width: 100%;
+    height: 62px;
+    background: #ffffff;
+    box-shadow: 0px 1px 5px 0px rgba(55, 99, 170, 0.10), 2px 2px 0px 0px #ffffff inset;
+}
+
+#header #header_main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header #header_main #header_left {
+    float: left;
+}
+
+/* logo */
+#header #header_main #header_left a img {
+    width: 52px;
+    height: 44px;
+    margin-top: 9px;
+}
+
+#header #header_main #header_left #header_left_menu {
+    float: left;
+    margin-left: 100px;
+    position: relative;
+    width: 960px;
+}
+
+#header #header_main #header_left #header_left_menu #header_left_menu_xun {
+    display: inline-block;
+    float: left;
+    margin-left: 24px;
+}
+
+#header #header_main #header_left #header_left_menu #header_left_menu_xun .ynmenu_xun_title {
+    height: 62px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #191818;
+    line-height: 62px;
+    float: left;
+
+}
+
+#header #header_main #header_left #header_left_menu #header_left_menu_xun .ynmenu_xun_title:hover {
+    border-bottom: 3px solid #01349d;
+    color: #01349d;
+}
+
+.ynmenu_xun_drop {
+    background-color: #Fff;
+    padding: 32px 50px;
+    position: absolute;
+    top: 65px;
+    z-index: 999999;
+    left: 0;
+    display: none;
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.10), 2px 2px 0px 0px #ffffff inset;
+}
+
+.duo {
+    width: 180px;
+    margin-right: 77px;float: left;
+}
+
+.duo:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.duo .menu_title {
+    height: 18px;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 600;
+    text-align: left;
+    color: #01349d;
+    line-height: 18px;
+    margin-bottom: 14px;
+}
+.ynmenu_xun_title:hover ~.ynmenu_xun_drop{
+    display: block;
+}
+
+.duo .menu_title_son {
+    height: 18px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    color: #00102b;
+    line-height: 18px;
+    margin-top: 14px;
+    display: block;
+}
+.header_right{
+    float: right;
+margin-top: 24px;
+  
+}
+#search,#Telephone{
+    float: left;
+}
+#search img,#Telephone img{
+    width: 16px;
+    height: 16px;
+    margin-left: 11px;
+}
+#search span,#Telephone span{
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+color: #191818;
+}
+/*  */
+/* 头部 header css end */
+
+/* 页脚 footer css start */
+
+/* 页脚 footer css end */
+/* pc端 end*/
+/* 手机端  start*/
+@media screen and (max-width: 1024px) {
+    /* 头部 header css start */
+
+    /* 头部 header css end */
+
+    /* 页脚 footer css start */
+
+    /* 页脚 footer css end */
+}
+
+/* 手机端  end*/
