@@ -9,16 +9,17 @@
 
 /* banner start */
 /* 轮播图开始 */
+.white h1,.white p{
+color: #fff !important;
+}
 .banner_container {
     height: 413px;
 }
 .banner {
     height: 410px;
-    background-image: url(../../page_image/Fzpaaspt/index_img/banner.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    box-sizing: border-box;
 }
 .banner_main {
     height: 410px;
@@ -72,6 +73,9 @@
     box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.3);
 }
 .banner_main span .xz_btn {
+    width: 136px;
+    height: 38px;
+    line-height: 38px;
     color: #2a2c44;
     background: #f8f9fb;
     border: 1px solid #ffffff;
