@@ -1,0 +1,468 @@
+/* 公共样式 */
+h2 {
+    font-size: 28px;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 600;
+    text-align: center;
+    color: #191818;
+    line-height: 42px;
+    padding: 60px 0px;
+}
+.banxin {
+    width: 1100px;
+    margin: 0 auto;
+}
+/* 轮播图开始 */
+.banner_container {
+    height: 413px;
+}
+.banner {
+    height: 410px;
+    background-image: url(../../page_image/Cpxfw/c1hbhhrj_img/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.banner_main {
+    height: 410px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner_main_left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner_main_left h1 {
+    font-size: 38px;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #343434;
+    line-height: 53px;
+}
+.banner_main_left p {
+    width: 480px;
+    font-size: 14px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #3d485d;
+    line-height: 25px;
+    padding-top: 16px;
+}
+.banner_main span {
+    display: block;
+    margin-top: 20px;
+}
+.banner_main span a {
+    width: 138px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.banner_main span .zx_btn {
+    color: #ffffff;
+    background: #01349d;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1);
+}
+.banner_main span .zx_btn:hover {
+    background: #0c49c9;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.3);
+}
+.banner_main span .xz_btn {
+    color: #2a2c44;
+    background: #f8f9fb;
+    border: 1px solid #ffffff;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1);
+}
+.banner_main span .xz_btn:hover {
+    color: #0c42b2;
+    box-shadow: 0px 8px 20px 0px rgba(102, 106, 112, 0.3), 0px 4px 20px 0px rgba(12, 66, 178, 0.08) inset;
+}
+.banner_main span .sp_btn {
+    color: #00102b;
+    background: #f8f9fb;
+    border: 1px solid #ffffff;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1);
+}
+.banner_main span .sp_btn:hover {
+    color: #0c42b2;
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.3), 0px 4px 20px 0px rgba(12, 66, 178, 0.08) inset;
+}
+.banner_main span .sp_btn img{
+    width: 18px;
+    height: 18px;
+    margin-top: -2px;
+    margin-right: 4px;
+}
+.banner_main span .sp_btn .play_02 {
+    display: none;
+}
+.banner_main span .sp_btn:hover .play_02 {
+    display: inline-block;
+}
+.banner_main span .sp_btn:hover .play_01 {
+    display: none;
+}
+.animation {
+    width: 100%;
+    height: 3px;
+}
+.animation img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: top;
+}
+/* 轮播图结束 */
+
+/* 元年C1合并报表定义 */
+.definition {
+    height: 500px;
+    background: #f5f7fa;
+}
+
+.definition_main_left {
+    float: left;
+    padding-top: 80px;
+}
+.definition_main_left h2 {
+    text-align: left;
+    padding: 0px;
+}
+.definition_main_left .keyword_box {
+    padding: 29px 0px 27px 0px;
+}
+.definition_main_left .keyword_box span {
+    display: inline-block;
+    height: 37px;
+    background: rgba(1, 55, 147, 0.1);
+    border-radius: 5px;
+    padding: 0px 11px;
+    font-size: 14px;
+    color: #404040;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    line-height: 37px;
+    margin-right: 16px;
+}
+.definition_main_left p {
+    width: 539px;
+    font-size: 14px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: justify;
+    color: #3d485d;
+    line-height: 25px;
+}
+.definition_main_left a {
+    display: block;
+    width: 138px;
+    height: 40px;
+    background: #01349d;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1);
+    font-size: 14px;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+    margin-top: 56px;
+}
+.definition_main_left a:hover {
+    background: #0c49c9;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.3);
+}
+.definition_main_right {
+    float: right;
+    padding-top: 60px;
+}
+.definition_main_right img {
+    width: 414px;
+    height: 380px;
+}
+/* 传统合并报表工作困境*/
+.dilemma {
+    height: 707px;
+    background-color: #fff;
+    box-shadow: 8px 8px 20px 0px rgba(2, 72, 189, 0.06);
+}
+
+.dilemma_main {
+    margin: 0 auto;
+}
+.dilemma_main .dilemma_main_header {
+    display: flex;
+    justify-content: center;
+}
+.dilemma_main .dilemma_main_header li {
+    float: left;
+    font-size: 16px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #333333;
+    line-height: 24px;
+    margin-right: 60px;
+    padding-bottom: 21px;
+}
+.dilemma_main .dilemma_main_header li:last-child {
+    margin-right: 0px;
+}
+
+.dilemma_main .dilemma_main_header li.change {
+    border-bottom: 2px solid #0248bd;
+    color: #0248bd;
+    font-weight: 600;
+}
+.dilemma_main_content {
+    height: 512px;
+    background-image: url(../../page_image/Cpxfw/c1hbhhrj_img/dilemma_bg.png);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.dilemma_main_content_main {
+    display: none;
+}
+.dilemma_main_content_main:nth-child(1) {
+    display: block;
+}
+.dilemma_main_content_main_left {
+    float: left;
+    margin-top: 96px;
+}
+.dilemma_main_content_main_left dl dt {
+    display: flex;
+    align-items: center;
+}
+.dilemma_main_content_main_left dl dt img {
+    width: 36px;
+    height: 36px;
+    margin-right: 12px;
+}
+.dilemma_main_content_main_left dl dt span {
+    font-size: 18px;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #404040;
+    line-height: 25px;
+}
+.dilemma_main_content_main_left dl dd {
+    margin-left: 48px;
+    margin-top: 28px;
+}
+.dilemma_main_content_main_left dl dd ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+.dilemma_main_content_main_left dl dd ul li span {
+    min-width: 8px;
+    height: 8px;
+    background: #e1272c;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+.dilemma_main_content_main_left dl dd ul li p {
+    width: 345px;
+    font-size: 14px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: justify;
+    color: #3d485d;
+    line-height: 25px;
+}
+.dilemma_main_content_main_right {
+    float: right;
+    width: 642px;
+    height: 380px;
+    background: linear-gradient(180deg, #f5f6f8, #ffffff);
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.1), -8px -8px 20px 0px rgba(255, 255, 255, 0.5),
+        2px 2px 0px 0px #ffffff inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 63px;
+}
+.dilemma_main_content_main_right video {
+    width: 587px;
+    height: 328px;
+}
+/* 产品优势 */
+.advantage {
+    height: 437px;
+    background: url(../../page_image/Cpxfw/c1hbhhrj_img/advantage_bg.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.advantage_main {
+    /* width: 1100px;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+}
+.advantage_main dl {
+    float: left;
+    width: 360px;
+    height: 140px;
+    background: #f5f5f5;
+    border-radius: 1px;
+    box-shadow: 0px 0px 4px 2px rgba(93, 93, 93, 0.1);
+    margin-top: 43px;
+}
+.advantage_main dl dt {
+    padding: 26px 28px 10px;
+    display: flex;
+    align-items: center;
+}
+.advantage_main dl dt img {
+    width: 30px;
+    height: 30px;
+}
+.advantage_main dl dt img:nth-child(2),
+.advantage_main dl dd p:nth-child(2),
+.active dt img:nth-child(1) {
+    display: none;
+}
+.advantage_main dl dt span {
+    font-size: 18px;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #191818;
+    line-height: 25px;
+    margin-left: 13px;
+}
+.advantage_main dl dd p {
+    padding: 0px 30px;
+    font-size: 14px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: justify;
+    color: #181818;
+    line-height: 25px;
+}
+
+.advantage_main .active {
+    width: 362px;
+    height: 226px;
+    background: url(../../page_image/Cpxfw/c1hbhhrj_img/advantage_checked.png);
+    background-size: cover;
+    transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    margin-top: 0px;
+}
+
+.active dt img:nth-child(2) {
+    display: block !important;
+}
+.active dt span {
+    color: #fff !important;
+}
+
+.active dd p:nth-child(1) {
+    display: none;
+}
+.active dd p:nth-child(2) {
+    display: block !important;
+    color: #fff;
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.18s;
+    -ms-transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.18s;
+}
+/* 元年C1合并报表软件产品功能 */
+.function {
+    height: 805px;
+    background: #f5f7fa;
+}
+.function_main {
+    position: relative;
+}
+.function_main_left {
+    /* float: left; */
+    position: absolute;
+    z-index: 99;
+}
+
+.function_main_left ul li {
+    width: 181px;
+    height: 51px;
+    background: #f3f5f8;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1), 8px 8px 20px 0px rgba(55, 99, 170, 0.11) inset,
+        -8px -8px 20px 0px rgba(255, 255, 255, 0.5) inset;
+    font-size: 16px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #333333;
+    line-height: 50px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.function_main_left ul li span {
+    margin-left: 26px;
+}
+.checked {
+    width: 196px !important;
+    margin-right: 0px !important;
+    background-image: linear-gradient(0deg, #f4f6f9, #f3f5f8);
+    border: 2px solid #fff;
+    border-right: none;
+    box-shadow: none !important;
+}
+.function_main_right {
+    /* float: right; */
+    position: absolute;
+    z-index: 90;
+    left: 196px;
+    width: 900px;
+    height: 596px;
+    background-image: linear-gradient(252deg, #fff, #f3f5f8);
+    border: 2px solid #fff;
+    box-shadow: 8px 8px 20px 0 rgb(55 99 170 / 10%), -8px -8px 20px 0 #fff;
+
+}
+.function_main_right_content{
+    display: none;
+}
+.function_main_right_content:nth-child(1){
+    display: block;
+}
+.function_main_right ul {
+    padding: 30px 50px 40px;
+}
+.function_main_right ul li {
+    display: flex;
+    align-items: center;
+}
+.function_main_right ul li span {
+    min-width: 8px;
+    height: 8px;
+    background: #e1272c;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+}
+.function_main_right ul li p {
+    font-size: 14px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #3d485d;
+    line-height: 29px;
+}
+.function_main_right img {
+    width: 804px;
+    height: 374px;
+    padding: 0px 50px;
+}
