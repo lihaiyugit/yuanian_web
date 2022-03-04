@@ -1,26 +1,342 @@
 /* 页面级公共样式  */
 /* pc端  start*/
+/* 公共 */
+#ljgd_main, #yndc_main, #cgal_main {
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
 /* banner start */
+#banner {
+    height: 410px;
+    /* background: url(../../page_image/cwyfw/glzx_cwszhzx_image/gzkj_bj.png); */
+    background-size: cover;
+}
+
+#banner_main {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+#banner_main_left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#banner h1 {
+    font-size: 38px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 53px;
+    margin-bottom: 30px;
+}
+
+#banner p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+#banner p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.white h1, .white p{
+    color: #ffffff;
+}
+
 /* banner end */
+
+
 /* 成功案例 SuccessfulCases start */
+#cgal_main ul li {
+    position: relative;
+    width: 220px;
+    height: 416px;
+    padding: 288px 24px 56px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: linear-gradient(180deg, rgba(2, 2, 2, 0), #050505);
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 20px;
+    float: left;
+}
+
+#cgal_main ul li:nth-child(4) {
+    margin-right: 0px;
+}
+
+
+.cgal_mainUrlImg1 {
+    background-image: url(https://cdn2.weimob.com/saas/@assets/cloud-fe-website-node/@2.3.4/_next/static/media/g2.f0ae81f4ab661ade0372e0c10354762b.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.cgal_mainUrl__1mwCo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 416px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 2, 2, 0)), to(#050505));
+    background: -webkit-linear-gradient(top, rgba(2, 2, 2, 0), #050505);
+    background: linear-gradient(180deg, rgba(2, 2, 2, 0), #050505);
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#cgal_main ul li.cgal_mainUrl {
+    width: 378px;
+    padding: 208px 24px 48px;
+}
+
+#cgal_main ul li.cgal_mainUrl .cgal_mainUrl__nr {
+    display: block;
+}
+
+#cgal_main ul li.cgal_mainUrl img {
+    display: none;
+}
+
+#cgal_main ul li img {
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+    bottom: 50px;
+    width: 50px;
+}
+
+.cgal_mainUrl__nr {
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+    width: 300px;
+    left: 30px;
+    display: none;
+}
+
+#cgal_main ul li h3 {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    line-height: 30px;
+    margin-bottom: 17px;
+}
+
+#cgal_main ul li p {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    height: 128px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    line-height: 21px;
+    opacity: 80%;
+
+}
+
+
+
+
 /* 成功案例 SuccessfulCasesstart end */
 /* 元年洞察 Insight  start*/
+#yndc {
+    background: #ccc;
+    background: url(../../page_image/yndc_bj.png);
+    background-size: cover;
+}
+
+#yndc a.yndc_main_a1 {
+    padding: 17px 16px 30px 16px;
+    width: 224px;
+    height: 208px;
+    background: linear-gradient(180deg, #f5f6f9, #ffffff);
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.10), 2px 2px 0px 0px #ffffff inset;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+#yndc a.yndc_main_a1 img {
+    width: 244px;
+    height: 114px;
+    background: red;
+    margin-bottom: 16px;
+
+}
+
+#yndc a.yndc_main_a1 span {
+    width: 70px;
+    height: 24px;
+    background: #01349d;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    line-height: 24px;
+    display: block;
+    position: absolute;
+    top: 17px;
+    left: 16px;
+}
+
+#yndc a.yndc_main_a {
+    padding: 16px 28px;
+    float: left;
+    width: 334px;
+    display: block;
+    background: linear-gradient(180deg, #f5f6f9, #ffffff);
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.10), 2px 2px 0px 0px #ffffff inset;
+    margin-right: 23px;
+    margin-bottom: 22px;
+}
+
+#yndc a:nth-child(3), #yndc a:nth-child(5) {
+    margin-right: 0px;
+}
+
+#yndc a h3 {
+    height: 52px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #191818;
+    line-height: 26px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    margin-bottom: 10px;
+}
+
+#yndc a p {
+    height: 22px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    color: #3d485d;
+    line-height: 22px;
+}
+
 /* 元年洞察 Insight end */
-/* 了解更多 LearnMore  start*/
-/* 了解更多 LearnMore end */
+/* 了解更多 ljgd  start*/
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #343434;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#ljgd_main .ljgd_main_a {
+    display: block;
+    position: relative;
+    width: 289px;
+    padding: 24px 32px;
+    height: 76px;
+    background: linear-gradient(180deg, #f5f7f9, #ffffff);
+    box-shadow: -8px -8px 20px 0px #ffffff, 0px 8px 20px 0px rgba(55, 99, 170, 0.10);
+    float: left;
+    margin-right: 20px;
+
+
+
+}
+
+#ljgd_main .ljgd_main_a:nth-child(3) {
+    margin-right: 0px;
+}
+
+#ljgd_main .ljgd_main_a:hover {
+    background: linear-gradient(176deg, #f3f5f8 4%, #ffffff 98%);
+    box-shadow: 0px 8px 20px 0px rgba(1, 49, 128, 0.20), -8px -8px 20px 0px #ffffff, 1px 1px 0px 0px #ffffff inset;
+    background: url(../../page_image/ljgd_bj.png);
+    background-size: 152px 72px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+
+
+}
+
+#ljgd_main .ljgd_main_a:hover span {
+    display:
+        block;
+}
+
+
+#ljgd_main .ljgd_main_a h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #191818;
+    margin-bottom: 10px;
+    height: 18px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+#ljgd_main .ljgd_main_a p {
+    height: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    width: 228px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    color: #3d485d;
+    line-height: 20px;
+}
+
+#ljgd_main .ljgd_main_a span {
+    width: 28px;
+    height: 28px;
+    background: url(../../page_image/ljgd_jt.gif);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 32px;
+    top: 48px;
+    display: none;
+
+}
+
+
+/* 了解更多 ljgd end */
 /* pc端  end*/
 
 /* 手机端  start*/
-@media screen and (max-width: 1024px){
-/* banner start */
-/* banner end */
-/* 成功案例 SuccessfulCases start */
-/* 成功案例 SuccessfulCasesstart end */
-/* 元年洞察 Insight  start*/
-/* 元年洞察 Insight end */
-/* 了解更多 LearnMore  start*/
-/* 了解更多 LearnMore end */
+@media screen and (max-width: 1024px) {
+    /* banner start */
+    /* banner end */
+    /* 成功案例 SuccessfulCases start */
+    /* 成功案例 SuccessfulCasesstart end */
+    /* 元年洞察 Insight  start*/
+    /* 元年洞察 Insight end */
+    /* 了解更多 LearnMore  start*/
+    /* 了解更多 LearnMore end */
 }
+
 /* 手机端  end*/
-
-
