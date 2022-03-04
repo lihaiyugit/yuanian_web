@@ -1,14 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
+
 <body>
-    <div>
-        <h1>toubu</h1>
+    <div id="header">
+        <div id="header_main">
+            <div id="header_left">
+                <!-- logo -->
+                <div style="width:100%; position:absolute; height:0; top:0; z-index:99999999; left:0;">
+                    <div style="width:100%; max-width:1200px; margin:0 auto;height:0; ">
+                        <a href="/" class="heade_left_logo"><img src="../../public_image/logo.png" alt="元年"></a>
+                    </div>
+                </div>
+                <div id="header_left_menu">
+                    <div id="header_left_menu_xun" class="header_left_menu_xun">
+                        <a class="ynmenu_xun_title" href="javascript:;">产品与服务</a>
+                        <div class="ynmenu_xun_drop">
+                            <div class="duo">
+                                <a class="huijuclick menu_title">管理咨询</a>
+                                <hr class="hr1" />
+                                <div class="h_url">
+                                    <a href="/zixun/szhzx/qyszh.html" class="huijuclick menu_title_son">元年企业数字化转型咨询</a>
+                                    <a href="/zixun/cwszh/jianjie/1807.html"
+                                        class="huijuclick menu_title_son">元年财务数字化转型咨询</a>
+                                </div>
+                            </div>
+                            <div class="duo">
+                                <a class="huijuclick menu_title">方舟Paas</a>
+                                <hr class="hr1" />
+                                <div class="h_url">
+                                    <a href="" class="huijuclick menu_title_son">方舟低代码平台</a>
+                                    <a href="" class="huijuclick menu_title_son">方舟数据中台</a>
+                                    <a href="" class="huijuclick menu_title_son">方舟AI平台</a>
+                                    <a href="" class="huijuclick menu_title_son">方舟云基础技术平台</a>
+                                    <a href="" class="huijuclick menu_title_son">方舟多维数据库</a>
+                                </div>
+                            </div>
+                            <div class="duo">
+                                <a class="huijuclick menu_title">应用产品</a>
+                                <hr class="hr1" />
+                                <div class="h_url">
+                                    <a href="/glkj/ysgl.html" class="huijuclick menu_title_son">C1预算管理软件</a>
+                                    <a href="/glkj/hbbb.html" class="huijuclick menu_title_son">C1合并报表管理软件</a>
+                                    <a href="" class="huijuclick menu_title_son">C1多维成本分摊</a>
+                                    <a href="/sjzt/zhida.html" class="huijuclick menu_title_son">C1智答</a>
+                                    <a href="/ycsgx/cwgx.html" class="huijuclick menu_title_son">E7财务共享平台</a>
+                                    <a href="" class="huijuclick menu_title_son">E7税务数字化</a>
+                                    <a href="" class="huijuclick menu_title_son">E7商旅数字化</a>
+                                    <a href="" class="huijuclick menu_title_son">E7采购数字化</a>
+                                    <a href="" class="huijuclick menu_title_son">RPA机器人</a>
+
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div id="header_left_menu_xun" class="header_left_menu_xun">
+                        <a class="ynmenu_xun_title" href="javascript:;">行业</a>
+                    </div>
+                    <div id="header_left_menu_xun" class="header_left_menu_xun">
+                        <a class="ynmenu_xun_title" href="javascript:;">数字化转型</a>
+                    </div>
+                    <div id="header_left_menu_xun" class="header_left_menu_xun">
+                        <a class="ynmenu_xun_title" href="javascript:;">业务数字化</a>
+                    </div>
+                    <div id="header_left_menu_xun" class="header_left_menu_xun">
+                        <a class="ynmenu_xun_title" href="javascript:;">财务数字化</a>
+                    </div>
+                    <div id="header_left_menu_xun" class="header_left_menu_xun">
+                        <a class="ynmenu_xun_title" href="javascript:;">方舟Pass平台</a>
+                    </div>
+                    <div id="header_left_menu_xun" class="header_left_menu_xun">
+                        <a class="ynmenu_xun_title" href="javascript:;">元年云</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header_right">
+                <div id="search">
+                    <div class="search_title">
+                        <div class='search_nr '>
+                            <input type="text" placeholder="请输入关键词">
+                            <label for="" id="search_botton">
+                                <img src="../../public_image/search.png" alt="">
+                                <span>搜索</span></label>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="Telephone">
+                    <div class="Telephone_title">
+                        <img src="../../public_image/Telephone.png" alt="">
+                        <span>电话</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
     </div>
 </body>
+
 </html>
+<script>
+    // 点击搜索
+    console.log('ddf')
+    $('#search #search_botton').click(function () {
+        $('#search .search_nr').addClass('search_nr_show');
+        $('#search input').show();
+        $('#search img').attr('src', '../../public_image/search_show.png');
+    })
+    $(document).bind("click", function (e) {
+        var target = $(e.target);
+        if (target.closest(".search_nr").length == 0) {
+            $('.search_nr').removeClass('search_nr_show');
+            $('#search input').hide();
+            // $(".yntop_seacher_form").removeClass("on")
+
+            // setTimeout(function () {
+            //     $(".yntop_seacher_form").hide();
+            // }, 300)
+        }
+    })
+    //     $(document).click(function (e) {
+
+    //         var _con = $('#search');   // 设置目标区域</span>  
+    //         console.log(_con);
+    //         console.log(_con.has(e.target).length);
+    //         console.log(e.target)
+    //         if (!_con.is(e.target) && _con.has(e.target).length === 0) { 
+    //             console.log('df')
+    //             // 点击区域不是目标本身，也排除目标区域的子元素
+    //   }  
+    // });
+    $("#header_left_menu_xun").hover(function () {
+        console.log('jhdf')
+        if ($(window).width() > 1024) { //判断是否是PC端
+            var t = $(this).find(".ynmenu_xun_drop");
+            timer = setTimeout(function () {
+                t.slideDown();
+            }, 200);
+        }
+    }, function () {
+        clearTimeout(timer);
+        $(".ynmenu_xun_drop").hide();
+    });
+
+</script>
