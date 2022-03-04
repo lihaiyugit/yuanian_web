@@ -32,7 +32,7 @@
     font-weight: 500;
     color: #ffffff;
     line-height: 53px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;color: #00102b;
 }
 
 #banner p {
@@ -41,16 +41,64 @@
     text-align: left;
     line-height: 25px;
     margin-bottom: 30px;
+    color: #3d485d;
+    
 }
-#banner p {
+.white h1, .white p {
+    color: #ffffff !important;
+}
+
+.span_button a {
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    width: 138px;
     font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    line-height: 25px;
-    margin-bottom: 30px;
+    font-weight: 500;
 }
-.white h1, .white p{
+
+.span_button a:nth-child(1) {
+    background: #01349d;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.10);
     color: #ffffff;
+}
+
+.span_button a:nth-child(2) {
+    background: #f8f9fb;
+    width: 136px;
+    color: #2a2c44;
+    line-height: 38px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 2px 4px 0px #01349d, 8px 8px 20px 0px rgba(55, 99, 170, 0.10);
+}
+
+#banner_bottom {
+    width: 100%;
+    height: 6px;
+
+}
+
+#banner_bottom #banner_bottom_left {
+    width: 15%;
+    height: 100%;
+    background: #d1161b;
+    float: left;
+}
+
+#banner_bottom #banner_bottom_left span {
+    width: 10px;
+    height: 6px;
+    float: right;
+    display: inline-block;
+    background: #Fff;
+}
+
+#banner_bottom #banner_bottom_right {
+    width: 85%;
+    height: 6px;
+    background: #01349d;
+    float: right;
 }
 
 /* banner end */
