@@ -1,0 +1,270 @@
+/* 元年财务数字化转型咨询特点 */
+.four_module {
+    padding-bottom: 60px;
+}
+.four_module_main dl {
+    float: left;
+    width: 259px;
+    height: 176px;
+    background: linear-gradient(180deg, #f5f6f8, #ffffff);
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.1), 2px 2px 0px 0px #ffffff inset;
+    margin-right: 20px;
+}
+
+.four_module_main dl:nth-child(4n) {
+    margin-right: 0px;
+}
+.four_module_main dl:hover {
+    background: linear-gradient(0deg, #ffffff, #edeff3 95%);
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.1), 2px 2px 0.3px 0px #ffffff inset,
+        0px 1px 3px 0px rgba(254, 254, 254, 0.5) inset;
+}
+.four_module_main dl dt {
+    padding: 24px 20px 10px 28px;
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+.four_module_main dl dt img {
+    height: 32px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.four_module_main dl:hover dt img {
+    margin-top: -20px;
+}
+
+.four_module_main dl dt h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #3d485d;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+.four_module_main dl dd p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    color: #3d485d;
+    line-height: 25px;
+    padding: 0px 31px;
+}
+/* 洞察与推演兼顾的元年管理报告 */
+.report {
+    height: 550px;
+    background-image: url(../../page_image/Ywszh/apspc_image/report_bg.png);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+.report_main_left {
+    float: left;
+    width: 601px;
+    height: 326px;
+    background: linear-gradient(180deg, #ffffff, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.report_main_left img {
+    width: 561px;
+    height: 263px;
+}
+.report_main_right {
+    float: right;
+    width: 477px;
+    height: 326px;
+    background: linear-gradient(180deg, #f5f6f8, #ffffff);
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.1), 2px 2px 0px 0px #ffffff inset;
+}
+.report_main_right dl dt {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 10px;
+}
+.report_main_right dl dt img {
+    width: 38px;
+    height: 38px;
+}
+.report_main_right dl dt h3 {
+    margin-left: 10px;
+    font-weight: 500;
+    text-align: left;
+    color: #333333;
+    line-height: 22px;
+}
+.report_main_right dl dd p {
+    font-size: 14px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: justify;
+    color: #3d485d;
+    line-height: 25px;
+    padding: 0px 46px 0px 78px;
+}
+/* 专注生产计划排程与供应链计划优化 */
+.schedule_optimize {
+    height: 786px;
+}
+.schedule_optimize_main_header {
+    display: flex;
+    justify-content: center;
+}
+.schedule_optimize_main_header ul li {
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #333333;
+    line-height: 24px;
+    padding: 0px 10px 20px;
+}
+.schedule_optimize_main_header ul li:nth-child(1) {
+    margin-right: 140px;
+}
+.schedule_optimize_main_header ul li.change {
+    border-bottom: 4px solid #0248bd;
+    font-weight: 600;
+    color: #0248bd;
+}
+.schedule_optimize_main_content {
+    height: 596px;
+    background: linear-gradient(180deg, #f5f7fa, #ffffff);
+}
+.schedule_optimize_main_content dl {
+    float: left;
+    width: 353px;
+    height: 227px;
+    background: linear-gradient(180deg,#f5f6f8, #ffffff);
+    box-shadow: 0px 8px 20px 0px rgba(55,99,170,0.10), 2px 2px 0px 0px #ffffff inset; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.schedule_optimize_main_content dl:hover{
+    background: linear-gradient(0deg,#ffffff, #edeff3 95%);
+    box-shadow: 0px 8px 20px 0px rgba(55,99,170,0.10), 2px 2px 0.3px 0px #ffffff inset, 0px 1px 3px 0px rgba(254,254,254,0.50) inset; 
+}
+
+.schedule_optimize_main_content dl:nth-child(3n) {
+    margin-right: 0px;
+}
+.schedule_optimize_main_content dl dt {
+    padding: 26px 0px 15px 30px;
+    display: flex;
+    align-items: center;
+    height: 38px;
+}
+
+.schedule_optimize_main_content dl dt img {
+    height: 38px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.schedule_optimize_main_content dl:hover dt img {
+    margin-top: -20px;
+}
+.schedule_optimize_main_content dl dt h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #333333;
+    line-height: 24px;
+    margin-left: 10px;
+}
+.schedule_optimize_main_content dl dd P {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    color: #5f5f5f;
+    line-height: 25px;
+    padding: 0px 30px 0px 38px;
+}
+.schedule_optimize_main_content .content_box {
+    display: none;
+    padding-top: 60px;
+}
+.schedule_optimize_main_content .content_box:nth-child(1) {
+    display: block;
+}
+/* 赋能企业精细化排产 */
+#glbg {
+    background: url(../../page_image/cwyfw/glzx_cwszhzx_image/glbg_bj.png);
+    background-size: cover;
+    padding-bottom: 60px
+}
+
+#glbg dl {
+    width: 215px;
+    float: left;
+    padding: 60px 30px 0px;
+    height: 248px;
+    transition: background-color .5s;
+}
+
+#glbg dl:nth-child(1), #glbg dl:nth-child(3) {
+    background: #282828;
+}
+
+#glbg dl:nth-child(2), #glbg dl:nth-child(4) {
+    background: linear-gradient(180deg, #f5f6f8, #ffffff);
+    box-shadow: 0px 0px 10px 0px rgb(55 99 170 / 10%), 0px 0px 0px 0px #ffffff inset;
+}
+
+#glbg dl:hover {
+    background: #01349d;
+}
+
+#glbg dl dt {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#glbg dl dt img {
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    margin-right: 4px;
+}
+
+#glbg dl dt h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 30px;
+}
+
+#glbg dl:nth-child(2) h3, #glbg dl:nth-child(4) h3 {
+    color: #191818;
+}
+
+#glbg dl:nth-child(2) p, #glbg dl:nth-child(4) p {
+    color: #3d485d;
+}
+
+#glbg dl:nth-child(2):hover h3, #glbg dl:nth-child(4):hover h3 {
+    color: #fff;
+}
+
+#glbg dl:nth-child(2):hover p, #glbg dl:nth-child(4):hover p {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+#glbg dl dd p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.80);
+    line-height: 21px;
+    padding: 0px 8px 0px 4px;
+}

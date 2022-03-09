@@ -25,8 +25,37 @@
 }
 .conduct_summarize_main img {
     width: 1000px;
-height: 520px;
-border: 1px dashed #969798;
+    height: 520px;
+}
+/* banner栏 */
+.tabber {
+    height: 56px;
+    line-height: 56px;
+    background: linear-gradient(180deg, #f5f6f8, #ffffff);
+    box-shadow: 0px 2px 20px 0px rgba(55, 99, 170, 0.1);
+    width: 78%;
+    margin: 0 auto;
+}
+.tabber ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 50px;
+}
+.tabber ul li {
+    float: left;
+}
+.tabber ul li:hover a {
+    color: #4074e1;
+}
+.tabber ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #2a2c44;
+    line-height: 20px;
+}
+.tabber ul li:nth-last-child(1) {
+    margin-right: 0px;
 }
 /* 决策中心能力 */
 .decision {
@@ -52,7 +81,7 @@ border: 1px dashed #969798;
     line-height: 22px;
     margin-left: 10px;
 }
-.decision_main_left ul{
+.decision_main_left ul {
     padding: 18px 50px 40px;
 }
 .decision_main_left ul li {
@@ -80,7 +109,7 @@ border: 1px dashed #969798;
 .decision_main_right {
     float: right;
 }
-.decision_main_right img{
+.decision_main_right img {
     width: 428px;
-height: 211px;
+    height: 211px;
 }
