@@ -1,35 +1,22 @@
-/* 公共样式 */
-h2 {
-    font-size: 28px;
-    font-family: PingFangSC, PingFangSC-Semibold;
-    font-weight: 600;
-    text-align: center;
-    color: #191818;
-    line-height: 42px;
-    padding: 60px 0px;
-}
-.banxin {
-    width: 1100px;
-    margin: 0 auto;
-}
-
 /* 解决企业常见的管理问题 */
 .resolve_question {
     height: 381px;
-    background: #f7f7f9;
 }
 .resolve_question_main dl {
     float: left;
-    /* width: 346px; */
     width: 353px;
     height: 155px;
-    background: linear-gradient(0deg, #ffffff, #edeff3 95%);
-    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.1), 2px 2px 0.3px 0px #ffffff inset,
-        0px 1px 3px 0px rgba(254, 254, 254, 0.5) inset;
+    background: linear-gradient(180deg,#f5f6f8, #ffffff);
+    box-shadow: 0px 8px 20px 0px rgba(55,99,170,0.10), 2px 2px 0px 0px #ffffff inset; 
     margin-right: 20px;
 }
-.resolve_question_main dl:nth-child(3) {
+.resolve_question_main dl:nth-child(3n) {
     margin-right: 0px;
+}
+.resolve_question_main dl:hover {
+    background: linear-gradient(0deg,#ffffff, #edeff3 95%);
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.1), 2px 2px 0.3px 0px #ffffff inset,
+        0px 1px 3px 0px rgba(254, 254, 254, 0.5) inset;
 }
 .resolve_question_main dl dt {
     padding: 24px 20px 10px 28px;
@@ -39,11 +26,14 @@ h2 {
 }
 .resolve_question_main dl dt img {
     height: 38px;
-    /* -webkit-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    transition: 1s; */
+    transition: 1s;
+}
+.resolve_question_main dl:hover dt img {
+    margin-top: -20px;
 }
 .resolve_question_main dl dt h3 {
     font-size: 16px;
@@ -180,7 +170,7 @@ h2 {
 .core_advantage_main .active {
     width: 362px;
     height: 252px;
-    background: url(../../page_image/Cpxfw/c1hbhhrj_img/advantage_checked.png);
+    background: url(../../page_image/cwyfw/yycp_c1hb_image/advantage_checked.png);
     background-size: cover;
     transition: all 0.4s linear;
     -ms-transition: all 0.4s linear;
@@ -210,12 +200,15 @@ h2 {
 }
 .application_scene_main dl {
     float: left;
-    /* width: 346px; */
     width: 353px;
     height: 172px;
     background: linear-gradient(180deg, #f5f6f8, #ffffff);
     box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.1), 2px 2px 0px 0px #ffffff inset;
     margin-right: 20px;
+}
+.application_scene_main dl:hover{
+    background: linear-gradient(0deg,#ffffff, #edeff3 95%);
+    box-shadow: 0px 8px 20px 0px rgba(55,99,170,0.10), 2px 2px 0.3px 0px #ffffff inset, 0px 1px 3px 0px rgba(254,254,254,0.50) inset; 
 }
 .application_scene_main dl:nth-child(3) {
     margin-right: 0px;
@@ -228,6 +221,14 @@ h2 {
 }
 .application_scene_main dl dt img {
     height: 38px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.application_scene_main dl:hover dt img {
+    margin-top: -20px;
 }
 .application_scene_main dl dt h3 {
     font-size: 16px;
@@ -323,22 +324,4 @@ h2 {
     color: rgba(255, 255, 255, 0.9);
     line-height: 25px;
     padding: 25px 0px 30px 0px;
-}
-.ul_content .ul_content_right .right_box a {
-    display: block;
-    width: 138px;
-    height: 40px;
-    background: #f8f9fb;
-    border: 1px solid #ffffff;
-    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1);
-    font-size: 14px;
-    font-family: PingFangSC, PingFangSC-Medium;
-    font-weight: 500;
-    text-align: center;
-    color: #2a2c44;
-    line-height: 40px;
-}
-.ul_content .ul_content_right .right_box a:hover {
-    color: #0c42b2;
-    box-shadow: 0px 8px 20px 0px rgba(102, 106, 112, 0.3), 0px 4px 20px 0px rgba(12, 66, 178, 0.08) inset;
 }

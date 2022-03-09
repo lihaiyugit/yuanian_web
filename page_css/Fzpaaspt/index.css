@@ -1,19 +1,3 @@
-/* 公共样式 */
-h2 {
-    font-size: 28px;
-    font-family: PingFangSC, PingFangSC-Semibold;
-    font-weight: 600;
-    text-align: center;
-    color: #191818;
-    line-height: 42px;
-    padding: 60px 0px;
-}
-.banxin {
-    width: 1100px;
-    margin: 0 auto;
-}
-
-
 /* 数字化时代的挑战 */
 .Innovation_engine {
     height: 415px;
@@ -35,14 +19,28 @@ h2 {
 .Innovation_engine_main dl:nth-child(4) {
     margin-right: 0px;
 }
+.Innovation_engine_main dl:hover {
+    background: linear-gradient(0deg, #ffffff, #edeff3 95%);
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.1), 2px 2px 0.3px 0px #ffffff inset,
+        0px 1px 3px 0px rgba(254, 254, 254, 0.5) inset;
+}
 .Innovation_engine_main dl dt {
     padding: 24px 20px 10px 28px;
     display: flex;
     align-items: center;
     height: 32px;
 }
+
 .Innovation_engine_main dl dt img {
     height: 32px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.Innovation_engine_main dl:hover dt img {
+    margin-top: -20px;
 }
 
 .Innovation_engine_main dl dt h3 {
@@ -99,7 +97,7 @@ h2 {
     text-align: left;
     color: #3d485d;
     line-height: 25px;
-    padding: 0px 28px 0px 88px;
+    padding: 0px 28px 0px 80px;
 }
 /* 元年方舟价值 */
 .Platform_value {
@@ -294,23 +292,6 @@ h2 {
     padding: 30px 0px;
 }
 
-.Business_analysis_main2_right a {
-    width: 138px;
-    height: 40px;
-    background: #f8f9fb;
-    border: 1px solid #ffffff;
-    box-shadow: 8px 8px 20px 0px rgb(55 99 170 / 10%);
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
-    color: #2a2c44;
-    line-height: 40px;
-    display: inline-block;
-}
-.Business_analysis_main2_right a:hover {
-    color: #0c42b2;
-    box-shadow: 0px 8px 20px 0px rgba(102, 106, 112, 0.3), 0px 4px 20px 0px rgba(12, 66, 178, 0.08) inset;
-}
 /* 元年方舟产品功能 */
 .product_function {
     height: 764px;
@@ -339,14 +320,14 @@ h2 {
     text-align: left;
     color: #333333;
     margin-right: 60px;
-    padding-bottom: 20px;
+    padding: 0px 10px 20px;
 }
 .product_function_header li:last-child {
     margin-right: 0px;
 }
 
 .product_function_header li.change {
-    border-bottom: 3px solid #0248bd;
+    border-bottom: 4px solid #0248bd;
     color: #0248bd;
     font-weight: 600;
 }
@@ -378,17 +359,32 @@ h2 {
     width: 66px;
     height: 72px;
 }
-.product_function_main dl {
+.product_function_main .mode {
     float: left;
     width: 540px;
     height: 196px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     margin-right: 20px;
     margin-bottom: 20px;
 }
-.product_function_main dl:nth-child(2n) {
+.mode img {
+    opacity: 0.3;
+}
+.product_function_main .mode:hover img {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.product_function_main dl {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.product_function_main .mode:nth-child(2n) {
     margin-right: 0px;
 }
 .product_function_main dl dt {
@@ -396,17 +392,16 @@ h2 {
 }
 .product_function_main dl dt h3 {
     font-size: 18px;
-    font-family: PingFangSC, PingFangSC-Medium;
     font-weight: 500;
     text-align: left;
     color: #3d485d;
     line-height: 25px;
+    opacity: 1 !important;
 }
 .product_function_main dl dd p {
     width: 292px;
     padding-left: 45px;
     font-size: 14px;
-    font-family: PingFangSC, PingFangSC-Regular;
     font-weight: 400;
     text-align: left;
     color: #3d485d;
@@ -421,10 +416,14 @@ h2 {
     float: left;
     width: 540px;
     height: 186px;
+    background: linear-gradient(180deg, #f5f6f8, #ffffff);
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.1), 2px 2px 0px 0px #ffffff inset;
+    margin-right: 20px;
+}
+.deploy_way_main dl:hover {
     background: linear-gradient(0deg, #ffffff, #edeff3 95%);
     box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.1), 2px 2px 0.3px 0px #ffffff inset,
         0px 1px 3px 0px rgba(254, 254, 254, 0.5) inset;
-    margin-right: 20px;
 }
 .deploy_way_main dl:nth-child(2) {
     margin-right: 0px;
@@ -450,24 +449,11 @@ h2 {
     padding: 0px 92px 0px 45px;
 }
 .deploy_way_main a {
-    display: inline-block;
-    width: 138px;
-    height: 40px;
-    background: #01349d;
-    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1);
-    font-size: 14px;
-    font-family: PingFangSC, PingFangSC-Medium;
-    font-weight: 500;
-    color: #ffffff;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-}
-.deploy_way_main a:hover {
-    background: #0c49c9;
-    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.3);
 }
 /* 开发者服务中心 */
 .service_center {

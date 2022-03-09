@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>决策中心</title>
+    <meta name="description" content="">
+    <!-- css -->
+    <link rel="stylesheet" href="../../public_css/OverallSituation.css">
+    <link rel="stylesheet" href="../../public_css/page_css/page.css">
+    <link rel="stylesheet" href="../../page_css/Cpyfw/fzpaaspt_jczx.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="../../public_css/aos.css" />
+    <!-- js -->
+    <script src="../../public_js/jquery-1.11.1.min.js"></script>
+    <script src="../../public_js/aos.js"></script>
+</head>
+
+<body>
+    <div class="wapper">
+        <!-- 轮播图 -->
+        <div class="banner_container">
+            <div class="banner" style="background-image: url(../../page_image/cwyfw/fzpaaspt_clzx_image/jc_banner.jpg);">
+                <div class="banner_main">
+                    <div class="banner_main_left">
+                        <h1>决策中心</h1>
+                        <p>构建企业长期战略竞争力</p>
+                        <span>
+                            <a href="" class="zx_btn">立即咨询</a>
+                            <a href="" class="xz_btn">资料下载</a>
+                        </span> 
+                    </div>
+                </div>
+            </div>
+            <div class="animation">
+                <img src="../../page_image/animation.gif" alt="">
+            </div>
+        </div>
+        <!-- tab栏 -->
+        <div class="tabber">
+            <ul>
+                <li><a href="">数据中台</a></li>
+                <li><a href="../Cpyfw/fzpaaspt_zhzx.html">指挥中心</a></li>
+                <li><a href="../Cpyfw/fzpaaspt_clzx.html">策略中心</a></li>
+                <li><a href="../Cpyfw/fzpaaspt_jczx.html">决策中心</a></li>
+                <li><a href="">监控中心</a></li>
+            </ul>
+        </div>
+        <!-- 决策中心概述 -->
+        <div class="conduct_summarize banxin" data-aos="fade-up">
+            <h2>决策中心概述</h2>
+            <p>决策中心通过人工智能、分析模型等技术的应用，提供深入的管理洞察能力，为企业决策层、管理层，分析师实时提供管理分析报告，低门槛大数据分析和洞察，决策沙盘推演能力，为决策提供强力的智能工具支撑。</p>
+            <div class="conduct_summarize_main">
+                <img src="../../page_image/cwyfw/fzpaaspt_clzx_image/jc_main.png" alt="">
+            </div>
+        </div>
+        <!-- 决策中心能力 -->
+       <div class="decision">
+           <h2>决策中心能力</h2>
+           <div class="decision_main banxin"  data-aos="fade-up">
+            <div class="decision_main_left">
+                <dl>
+                    <dt>
+                        <img src="../../page_image/cwyfw/fzpaaspt_clzx_image/jc_left.png" alt="">
+                        <h3>决策中心能力</h3>
+                    </dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                <span></span>
+                                <p>从企业经营管理的场景角度考虑，智能预测能力，实时数据获取，经营决策实时推演；</p>
+                            </li>
+                            <li>
+                                <span></span>
+                                <p>决策流程可视化，智能主动预警，模拟测算和决策自动化这六大能力是决策中心必备的能力。</p>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+            <div class="decision_main_right">
+                <img src="../../page_image/cwyfw/fzpaaspt_clzx_image/jc_right.png" alt="">
+            </div>
+           </div>
+       </div>
+        <div class="clear"></div>
+    </div>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    AOS.init({
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 400, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: true,
+    });
+    // 元年C1合并报表软件产品功能点击切换
+    $('.function_main_left ul li').click(function () {
+        var index = $(this).index(); //获取被按下按钮的索引值，需要注意index是从0开始的
+        $(this).addClass('checked').siblings().removeClass('checked');
+        $(".function_main_right >.function_main_right_content").eq(index).show().siblings().hide();
+    });
+    var banOffTop = $(".tabber").offset().top;//获取tab栏距离顶部的垂直距离
+    var Y = 0.05; //宽度放大比例
+    var X = 0.01;//行高放大比例
+    var scTop = 0;//初始化垂直滚动的距离 当前和顶部的距离
+    $(document).scroll(function () {
+        scTop = $(this).scrollTop();//获取到滚动条拉动的距离
+        if (scTop >= banOffTop) {
+            //核心部分：当滚动条拉动的距离大于等于导航栏距离顶部的距离时，添加指定的样式
+            $(".tabber").css({
+                "position": "fixed",
+                "top": "0",
+                "left": "0",
+                "width": "100%",
+                "height": "60px",
+                "line-height": "60px",
+            });
+        } else {
+            $(".tabber").css({
+                "width": `${(78 + Y * scTop)}%`,
+                "height": `${(56 + X * scTop)}px`,
+                "line-height": `${(56 + X * scTop)}px`,
+                "position": "static",
+            });
+        }
+    })
+  
+</script>

@@ -1,11 +1,14 @@
 /* 页面级公共样式  */
 /* pc端  start*/
 /* 公共 */
-#ljgd_main, #yndc_main, #cgal_main {
+#ljgd_main,
+#yndc_main,
+#cgal_main {
     width: 1100px;
     margin: 0 auto;
     padding-bottom: 60px;
 }
+
 
 p.Subtitle {
     width: 850px;
@@ -18,10 +21,60 @@ p.Subtitle {
     line-height: 21px;
     margin-bottom: 30px;
 }
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #191818;
+    /* line-height: 42px; */
+    padding: 60px 0px;
+}
+.banxin {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.blue_btn {
+    width: 138px;
+    height: 40px;
+    background: #01349d;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+    display: inline-block;
+}
+.blue_btn:hover {
+    background: #0c49c9;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.3);
+}
+
+.white_btn {
+    width: 136px;
+    height: 38px;
+    background: #f8f9fb;
+    border: 1px solid #ffffff;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #2a2c44;
+    line-height: 38px;
+    display: inline-block;
+}
+.white_btn:hover {
+    color: #0c42b2;
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.3), 0px 4px 20px 0px rgba(12, 66, 178, 0.08) inset;
+
+}
 
 /* banner start */
 /* 轮播图开始 */
-.white h1, .white p {
+
+.white h1,
+.white p {
     color: #fff !important;
 }
 
@@ -155,7 +208,6 @@ p.Subtitle {
 
 /* banner end */
 
-
 /* 成功案例 SuccessfulCases start */
 #cgal_main ul li {
     position: relative;
@@ -165,8 +217,8 @@ p.Subtitle {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background-color: linear-gradient(180deg, rgba(2, 2, 2, 0), #050505);
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     border-radius: 4px;
     overflow: hidden;
     margin-right: 20px;
@@ -176,7 +228,6 @@ p.Subtitle {
 #cgal_main ul li:nth-child(4) {
     margin-right: 0px;
 }
-
 
 .cgal_mainUrlImg1 {
     background-image: url(https://cdn2.weimob.com/saas/@assets/cloud-fe-website-node/@2.3.4/_next/static/media/g2.f0ae81f4ab661ade0372e0c10354762b.png);
@@ -195,8 +246,8 @@ p.Subtitle {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 2, 2, 0)), to(#050505));
     background: -webkit-linear-gradient(top, rgba(2, 2, 2, 0), #050505);
     background: linear-gradient(180deg, rgba(2, 2, 2, 0), #050505);
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 #cgal_main ul li.cgal_mainUrl {
@@ -249,11 +300,7 @@ p.Subtitle {
     color: #ffffff;
     line-height: 21px;
     opacity: 80%;
-
 }
-
-
-
 
 /* 成功案例 SuccessfulCasesstart end */
 /* 元年洞察 Insight  start*/
@@ -268,7 +315,7 @@ p.Subtitle {
     width: 224px;
     height: 208px;
     background: linear-gradient(180deg, #f5f6f9, #ffffff);
-    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.10), 2px 2px 0px 0px #ffffff inset;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1), 2px 2px 0px 0px #ffffff inset;
     display: block;
     float: left;
     margin-right: 20px;
@@ -280,7 +327,9 @@ p.Subtitle {
     height: 114px;
     background: red;
     margin-bottom: 16px;
+
     display: inline-block;
+
 
 }
 
@@ -306,16 +355,20 @@ p.Subtitle {
     width: 334px;
     display: block;
     background: linear-gradient(180deg, #f5f6f9, #ffffff);
-    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.10), 2px 2px 0px 0px #ffffff inset;
+    box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1), 2px 2px 0px 0px #ffffff inset;
     margin-right: 23px;
     margin-bottom: 22px;
 }
+
 
 #yndc a.yndc_main_a img, #yndc a.yndc_main_a span {
     display: none;
 }
 
-#yndc a:nth-child(3), #yndc a:nth-child(5) {
+
+#yndc a:nth-child(3),
+#yndc a:nth-child(5) {
+
     margin-right: 0px;
 }
 
@@ -362,12 +415,9 @@ h2 {
     padding: 24px 32px;
     height: 76px;
     background: linear-gradient(180deg, #f5f7f9, #ffffff);
-    box-shadow: -8px -8px 20px 0px #ffffff, 0px 8px 20px 0px rgba(55, 99, 170, 0.10);
+    box-shadow: -8px -8px 20px 0px #ffffff, 0px 8px 20px 0px rgba(55, 99, 170, 0.1);
     float: left;
     margin-right: 20px;
-
-
-
 }
 
 #ljgd_main .ljgd_main_a:nth-child(3) {
@@ -376,20 +426,16 @@ h2 {
 
 #ljgd_main .ljgd_main_a:hover {
     background: linear-gradient(176deg, #f3f5f8 4%, #ffffff 98%);
-    box-shadow: 0px 8px 20px 0px rgba(1, 49, 128, 0.20), -8px -8px 20px 0px #ffffff, 1px 1px 0px 0px #ffffff inset;
+    box-shadow: 0px 8px 20px 0px rgba(1, 49, 128, 0.2), -8px -8px 20px 0px #ffffff, 1px 1px 0px 0px #ffffff inset;
     background: url(../../page_image/ljgd_bj.png);
     background-size: 152px 72px;
     background-position: right bottom;
     background-repeat: no-repeat;
-
-
 }
 
 #ljgd_main .ljgd_main_a:hover span {
-    display:
-        block;
+    display: block;
 }
-
 
 #ljgd_main .ljgd_main_a h3 {
     font-size: 18px;
@@ -426,9 +472,7 @@ h2 {
     right: 32px;
     top: 48px;
     display: none;
-
 }
-
 
 /* 了解更多 ljgd end */
 /* pc端  end*/
