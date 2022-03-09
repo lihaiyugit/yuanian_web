@@ -1,76 +1,26 @@
-#jzyyj, #glbg_main, #zxtd_main, #jzyl_main, .tab_ment_main {
+#zxtd_main, #jzyl_main, .tab_ment_main,#zldt_main {
     width: 1100px;
     margin: 0 auto;
 }
 
-
-/* jzyyj start*/
-#jzyyj {
-    padding-bottom: 60px;
+/* 企业数字化转型的建设途径  start*/
+#gzkj {
+    background: #f9fafd;
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.10); 
 }
 
-#jzyyj .jzyyj_left {
-    width: 560px;
-    float: left;
-}
-
-#jzyyj .jzyyj_left h2 {
-    font-weight: 600;
-    text-align: left;
-    color: #191818;
+#gzkj h2 {
     padding-bottom: 30px;
 }
 
-#jzyyj .jzyyj_left p {
-    width: 560px;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: justify;
-    color: #5b5b5b;
-    line-height: 25px;
-    margin-bottom: 40px;
-}
-
-#jzyyj .jzyyj_left label {
-    margin-right: 45px;
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
-#jzyyj .jzyyj_left label img {
-    width: 38px;
-    height: 38px;
-}
-
-#jzyyj .jzyyj_left label span {
-    font-size: 16px;
-    font-weight: 500;
-    text-align: left;
-    color: #333333;
-    line-height: 24px;
-}
-
-.jzyyj_right {
-    width: 448px;
-    height: 288px;
-    float: right;
-    margin-top: 78px;
-}
-
-/* gzkj */
-#gzkj {
-    background: #f9fafd;
-    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.10);
-}
-
 #gzkj #gzkj_main ul {
-    width: 648px;
+    width: 416px;
     height: 37px;
     margin: 0 auto;
 }
 
 #gzkj #gzkj_main ul li {
-    width: 216px;
+    width: 104px;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -103,29 +53,22 @@
 }
 
 .tab_ment_main .tab_ment_left {
-    width: 504px;
+    width: 512px;
     text-align: center;
-    padding: 60px 14px;
+    padding: 22px 19px;
     float: left;
     background: linear-gradient(180deg, #ffffff, #ffffff);
 }
 
-.tab_ment_main:nth-child(3) .tab_ment_left {
-    padding: 20px 14px;
-}
-
-.tab_ment_main:nth-child(3) .tab_ment_left img {
-    height: 286px;
-}
 .tab_ment_main .tab_ment_left img {
-    height: 203px
+    height: 282px;
 }
 
 .tab_ment_main .tab_ment_right {
-    width: 532px;
-    height: 266px;
+    width: 508px;
+    height: 303px;
     padding-left: 18px;
-    padding: 60px 0px 0px 18px;
+    padding: 23px 0px 0px 24px;
     float: right;
     background: linear-gradient(180deg, #f5f6f8, #ffffff);
     box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.10), 2px 2px 0px 0px #ffffff inset;
@@ -148,38 +91,20 @@
 }
 
 .tab_ment_main .tab_ment_right dl dd p {
-    width: 406px;
     position: relative;
     padding-left: 49px;
     margin-bottom: 10px;
-}
-
-.tab_ment_main .tab_ment_right dl dd p i {
-    width: 6px;
-    height: 6px;
-    background: #d1161b;
-    border-radius: 50%;
-    color: #d1161b;
-    position: absolute;
-    top: 8px;
-    display: inline-block;
-}
-
-.tab_ment_main .tab_ment_right dl dd p span {
-    width: 390px;
-    height: 50px;
+    width: 409px;
     font-size: 14px;
-    font-family: PingFangSC, PingFangSC-Regular;
     font-weight: 400;
-    text-align: left;
+    text-align: justify;
     color: #5f5f5f;
-    margin-left: 10px;
     line-height: 25px;
-    display: inline-block;
 }
+/* 企业数字化转型的建设途径  end*/
 
 
-/* jzyl 价值引领 start*/
+/*  以企业价值为引领 的元年企业数字化转型咨询 start*/
 #jzyl {
     background: #01349d;
     padding-bottom: 60px;
@@ -204,7 +129,6 @@
 
 #jzyl #jzyl_main .jzyl_main_left p {
     width: 407px;
-    height: 175px;
     font-size: 14px;
     font-weight: 400;
     text-align: justify;
@@ -238,10 +162,62 @@
     width: 533px;
     height: 302px;
 }
+/*  元年企业数字化转型咨询战略地图 start */
 
-/*咨询特点 zxtd start */
+#zldt dl {
+    padding: 22px 36px 0;
+    float: left;
+    width: 281px;
+    height: 211px;
+    background: linear-gradient(180deg, #f5f6f8, #ffffff);
+    box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.10), 2px 2px 0px 0px #ffffff inset;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+#zldt dl:nth-child(3){
+    margin-right: 0px;
+}
+
+#zldt dl dt img {
+    width: 38px;
+    height: 38px;
+}
+#zldt dl dt h3 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #333333;
+    line-height: 24px;
+}
+#zldt dl dd p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #5f5f5f;
+    line-height: 22px;
+    position: relative;
+    padding-left: 14px;
+    margin-top: 5px;
+}
+/* 元年企业数字化转型咨询战略地图 end */
+/*  元年企业数字化转型咨询服务架构 start */
+#fwjg {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#fwjg img {
+    width: 1098px;
+    margin: 0 auto;
+
+}
+/*  元年企业数字化转型咨询服务架构 end */
+
+/*数字化转型咨询和落地服务 助力企业释放数据资产潜在价值 zxtd start */
 #zxtd {
-    background: url(/zixun/szhzx/image/glzx_cwszhzx_image/zxtd_bj.png);
+    background: url(../../page_image/cwyfw/glzx_cwszhzx_image/zxtd_bj.png);
     background-size: cover;
     padding-bottom: 60px
 }
@@ -270,8 +246,7 @@
 .zxtd_main_right dl {
     height: 344px !important;
     margin-right: 0px !important;
-
-    background: url(../../page_image/cwyfw/glzx_cwszhzx_image/zxtd_dl.png) !important;
+    background: url(../../page_image/cwyfw/glzx_qyszh_image/zxtd_dl.png) !important;
     background-size: cover !important;
 }
 
@@ -319,125 +294,12 @@
 
 }
 
-/* fwjg 服务架构 start */
-#fwjg {
-    text-align: center;
-    padding-bottom: 60px;
-}
-
-#fwjg img {
-    width: 805px;
-    margin: 0 auto;
-
-}
-
-/* glbg 管理变革 start */
-#glbg {
-    background: url(../../page_image/cwyfw/glzx_cwszhzx_image/glbg_bj.png);
-    background-size: cover;
-    padding-bottom: 60px
-}
-
-#glbg dl {
-    width: 215px;
-    float: left;
-    padding: 56px 30px 0px;
-    height: 248px;
-    transition: background-color .5s;
-}
-
-#glbg dl:nth-child(1), #glbg dl:nth-child(3) {
-    background: #282828;
-}
-
-#glbg dl:nth-child(2), #glbg dl:nth-child(4) {
-    background: linear-gradient(180deg, #f5f6f8, #ffffff);
-    box-shadow: 0px 0px 10px 0px rgb(55 99 170 / 10%), 0px 0px 0px 0px #ffffff inset;
-}
-
-#glbg dl:hover {
-    background: #01349d;
-}
-
-#glbg dl dt {
-    height: 30px;
-    margin-bottom: 9px;
-}
-#glbg dl dt img.hide{
-    display: none;
-}
-#glbg dl:hover img.show{
-    display: none;
-}
-#glbg dl:hover img.hide{
-    display: inline-block;
-}
-
-#glbg dl dt img {
-    width: 30px;
-    height: 30px;
-    vertical-align: top;
-    margin-right: 4px;
-}
-
-#glbg dl dt h3 {
-    font-size: 18px;
-    font-weight: 500;
-    text-align: left;
-    color: #ffffff;
-    display: inline-block;
-    line-height: 30px;
-}
-
-#glbg dl:nth-child(2) h3, #glbg dl:nth-child(4) h3 {
-    color: #191818;
-}
-
-#glbg dl:nth-child(2) p, #glbg dl:nth-child(4) p {
-    color: #3d485d;
-}
-
-#glbg dl:nth-child(2):hover h3, #glbg dl:nth-child(4):hover h3 {
-    color: #fff;
-}
-
-#glbg dl:nth-child(2):hover p, #glbg dl:nth-child(4):hover p {
-    color: rgba(255, 255, 255, 0.90);
-}
-
-#glbg dl dd p {
-    font-size: 14px;
-    font-weight: 400;
-    text-align: justify;
-    color: rgba(255, 255, 255, 0.80);
-    line-height: 21px;
-}
-
+/* 数字化转型咨询和落地服务 助力企业释放数据资产潜在价值 end */
 @media screen and (max-width: 1024px) {
-    #jzyyj, #glbg_main, #zxtd_main, #jzyl_main, .tab_ment_main, #fwjg {
+     #zxtd_main, #jzyl_main, .tab_ment_main, #fwjg {
         width: 92%;
     }
-
-    /* jzyyj 财务数字化转型的价值与愿景 start */
-    #jzyyj .jzyyj_left, #jzyyj .jzyyj_left p {
-        width: 100%;
-    }
-
-    #jzyyj .jzyyj_left label {
-        margin-right: 10px;
-    }
-
-    #jzyyj .jzyyj_left label span {
-        font-size: 14px;
-    }
-
-    .jzyyj_right {
-        width: auto;
-        height: auto;
-        margin-top: 5%;
-    }
-
-    /* 传统合并报表工作困境 */
+    /* 企业数字化转型的建设途径 */
     #gzkj #gzkj_main ul {
         width: 100%;
         display: -webkit-box;
@@ -462,7 +324,7 @@
         width: 84%;
     }
 
-    /* 以价值创造引领 start */
+    /* 以企业价值为引领的元年企业数字化转型咨询 start */
     #jzyl #jzyl_main .jzyl_main_left, #jzyl #jzyl_main .jzyl_main_right {
         width: 90%;
         padding: 5%;
@@ -478,8 +340,18 @@
         height: auto;
     }
 
-    /* 元年财务数字化转型咨询特点 start */
-    .zxtd_main_left, .zxtd_main_right {
+   
+
+    /* 元年企业数字化转型咨询服务架构 start */
+    #fwjg {
+        margin: 0 auto;
+    }
+
+    #fwjg img {
+        width: auto;
+    }
+     /* 数字化转型咨询和落地服务 助力企业释放数据资产潜在价值 start */
+     .zxtd_main_left, .zxtd_main_right {
         width: 100%;
         float: none;
     }
@@ -491,19 +363,4 @@
         margin-right: auto;
     }
 
-    /* 元年财务数字化转型服务架构 start */
-    #fwjg {
-        margin: 0 auto;
-    }
-
-    #fwjg img {
-        width: auto;
-    }
-
-    /* 以财务数字化咨询有效推进财务管理变革 start */
-    #glbg dl {
-        width: 90%;
-        padding: 5%;
-        height: auto;
-    }
 }

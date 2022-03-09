@@ -9,6 +9,18 @@
     padding-bottom: 60px;
 }
 
+
+p.Subtitle {
+    width: 850px;
+    height: 42px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #191818;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
 h2 {
     font-size: 28px;
     font-weight: 600;
@@ -55,34 +67,41 @@ h2 {
 .white_btn:hover {
     color: #0c42b2;
     box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.3), 0px 4px 20px 0px rgba(12, 66, 178, 0.08) inset;
+
 }
 
 /* banner start */
 /* 轮播图开始 */
+
 .white h1,
 .white p {
     color: #fff !important;
 }
+
 .banner_container {
     height: 413px;
 }
+
 .banner {
     height: 410px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
+
 .banner_main {
     height: 410px;
     width: 1200px;
     margin: 0 auto;
     position: relative;
 }
+
 .banner_main_left {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
+
 .banner_main_left h1 {
     font-size: 38px;
     font-weight: 500;
@@ -90,6 +109,7 @@ h2 {
     color: #00102b;
     line-height: 53px;
 }
+
 .banner_main_left p {
     width: 480px;
     font-size: 14px;
@@ -99,10 +119,12 @@ h2 {
     line-height: 25px;
     padding-top: 16px;
 }
+
 .banner_main span {
     display: block;
     margin-top: 20px;
 }
+
 .banner_main span a {
     width: 138px;
     height: 40px;
@@ -114,15 +136,18 @@ h2 {
     margin-top: 30px;
     margin-right: 20px;
 }
+
 .banner_main span .zx_btn {
     color: #ffffff;
     background: #01349d;
     box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1);
 }
+
 .banner_main span .zx_btn:hover {
     background: #0c49c9;
     box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.3);
 }
+
 .banner_main span .xz_btn {
     width: 136px;
     height: 38px;
@@ -132,32 +157,39 @@ h2 {
     border: 1px solid #ffffff;
     box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1);
 }
+
 .banner_main span .xz_btn:hover {
     color: #0c42b2;
     box-shadow: 0px 8px 20px 0px rgba(102, 106, 112, 0.3), 0px 4px 20px 0px rgba(12, 66, 178, 0.08) inset;
 }
+
 .banner_main span .sp_btn {
     color: #00102b;
     background: #f8f9fb;
     border: 1px solid #ffffff;
     box-shadow: 8px 8px 20px 0px rgba(55, 99, 170, 0.1);
 }
+
 .banner_main span .sp_btn:hover {
     color: #0c42b2;
     box-shadow: 0px 8px 20px 0px rgba(55, 99, 170, 0.3), 0px 4px 20px 0px rgba(12, 66, 178, 0.08) inset;
 }
+
 .banner_main span .sp_btn img {
     width: 18px;
     height: 18px;
     margin-top: -2px;
     margin-right: 4px;
 }
+
 .banner_main span .sp_btn .play_02 {
     display: none;
 }
+
 .banner_main span .sp_btn:hover .play_02 {
     display: inline-block;
 }
+
 .banner_main span .sp_btn:hover .play_01 {
     display: none;
 }
@@ -166,6 +198,7 @@ h2 {
     width: 100%;
     height: 3px;
 }
+
 .animation img {
     width: 100%;
     height: 100%;
@@ -277,7 +310,7 @@ h2 {
     background-size: cover;
 }
 
-#yndc a.yndc_main_a1 {
+#yndc a.yndc_main_a:nth-child(1) {
     padding: 17px 16px 30px 16px;
     width: 224px;
     height: 208px;
@@ -289,14 +322,18 @@ h2 {
     position: relative;
 }
 
-#yndc a.yndc_main_a1 img {
+#yndc a.yndc_main_a:nth-child(1) img {
     width: 244px;
     height: 114px;
     background: red;
     margin-bottom: 16px;
+
+    display: inline-block;
+
+
 }
 
-#yndc a.yndc_main_a1 span {
+#yndc a.yndc_main_a:nth-child(1) span {
     width: 70px;
     height: 24px;
     background: #01349d;
@@ -309,6 +346,7 @@ h2 {
     position: absolute;
     top: 17px;
     left: 16px;
+    display: inline-block;
 }
 
 #yndc a.yndc_main_a {
@@ -322,8 +360,15 @@ h2 {
     margin-bottom: 22px;
 }
 
+
+#yndc a.yndc_main_a img, #yndc a.yndc_main_a span {
+    display: none;
+}
+
+
 #yndc a:nth-child(3),
 #yndc a:nth-child(5) {
+
     margin-right: 0px;
 }
 
@@ -434,7 +479,16 @@ h2 {
 
 /* 手机端  start*/
 @media screen and (max-width: 1024px) {
+
     /* banner start */
+    .banner_main {
+        width: 92%;
+    }
+
+    .banner_main_left p {
+        width: 100%;
+    }
+
     /* banner end */
     /* 成功案例 SuccessfulCases start */
     /* 成功案例 SuccessfulCasesstart end */

@@ -1,4 +1,5 @@
 $(function(){
+    // 该功能财务数字化转型页面和企业数字化页面同共用
      $("#gzkj #gzkj_main ul li").click(function (index) {
         //通过 .index()方法获取元素下标，从0开始，赋值给某个变量
         var _index = $(this).index();
@@ -7,7 +8,5 @@ $(function(){
         console.log(index)
         //改变选中时候的选项框的样式，移除其他几个选项的样式
         $(this).addClass("change").siblings().removeClass("change");
-
-
     });
 })
