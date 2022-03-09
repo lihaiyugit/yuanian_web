@@ -227,7 +227,15 @@
     height: 30px;
     margin-bottom: 10px;
 }
-
+#glbg dl dt img.hide{
+    display: none;
+}
+#glbg dl:hover img.show{
+    display: none;
+}
+#glbg dl:hover img.hide{
+    display: inline-block;
+}
 #glbg dl dt img {
     width: 30px;
     height: 30px;
