@@ -297,12 +297,7 @@
 </html>
 
 <script type="text/javascript">
-    AOS.init({
-        delay: 0, // values from 0 to 3000, with step 50ms
-        duration: 400, // values from 0 to 3000, with step 50ms
-        easing: 'ease', // default easing for AOS animations
-        once: true,
-    });
+
     // 传统合并报表工作困境点击切换
     $('.dilemma_main_header li').click(function () {
         var index = $(this).index(); //获取被按下按钮的索引值，需要注意index是从0开始的
@@ -322,3 +317,4 @@
         $(".function_main_right >.function_main_right_content").eq(index).show().siblings().hide();
     });
 </script>
+<script src="../../public_js/page_aos.js"></script>

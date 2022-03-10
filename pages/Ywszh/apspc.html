@@ -287,12 +287,6 @@
 </html>
 
 <script type="text/javascript">
-    AOS.init({
-        delay: 0, // values from 0 to 3000, with step 50ms
-        duration: 400, // values from 0 to 3000, with step 50ms
-        easing: 'ease', // default easing for AOS animations
-        once: true,
-    });
     // 专注生产计划排程与供应链计划优化点击切换
     $('.schedule_optimize_main_header ul li').click(function () {
         $(this).addClass('change').siblings().removeClass('change');
@@ -300,3 +294,4 @@
         $(".schedule_optimize_main_content >.content_box").eq(index).show().siblings().hide();
     })
 </script>
+<script src="../../public_js/page_aos.js"></script>
