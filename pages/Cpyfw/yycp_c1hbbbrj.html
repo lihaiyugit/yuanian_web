@@ -362,12 +362,7 @@
 </html>
 
 <script type="text/javascript">
-    AOS.init({
-        delay: 0, // values from 0 to 3000, with step 50ms
-        duration: 400, // values from 0 to 3000, with step 50ms
-        easing: 'ease', // default easing for AOS animations
-        once: true,
-    });
+
     // 传统合并报表工作困境点击切换
     $('.dilemma_main_header li').click(function () {
         var index = $(this).index(); //获取被按下按钮的索引值，需要注意index是从0开始的
@@ -387,11 +382,6 @@
         $(".function_main_right >.function_main_right_content").eq(index).show().siblings().hide();
     });
 </script>
-<!-- 
-   目前缺失内容
-      1.成功案例缺失页面：C1预算管理、企业数字化转型、财务数字化转型、元年管理报告解决方案、元年智能计划排程解决方案、c1合并报表解决方案 
-      2.了解更多缺失页面：策略中心、指挥中心、决策中心
-      3.标杆客户缺失页面：c1合并报表解决方案
 
+<script src="../../public_js/page_aos.js"></script>
 
- -->
