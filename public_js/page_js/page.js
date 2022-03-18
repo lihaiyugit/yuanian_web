@@ -1,6 +1,5 @@
 $(function () {
-   console.log('sdd')
-
+    AOS.init();
     // 成功案例
     $("#cgal #cgal_main ul li").hover(function (index) {
         console.log('d')

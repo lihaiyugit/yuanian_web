@@ -105,21 +105,21 @@
 .tab_ment_main .tab_ment_left {
     width: 504px;
     text-align: center;
-    padding: 60px 14px;
+    padding: 55px 14px;
     float: left;
     background: linear-gradient(180deg, #ffffff, #ffffff);
 }
 
-.tab_ment_main:nth-child(3) .tab_ment_left {
-    padding: 20px 14px;
-}
-
-.tab_ment_main:nth-child(3) .tab_ment_left img {
-    height: 286px;
-}
-
 .tab_ment_main .tab_ment_left img {
-    height: 203px
+    height: 216px
+}
+
+.tab_ment_main:nth-child(2) .tab_ment_left ,.tab_ment_main:nth-child(3) .tab_ment_left {
+    padding: 10px 14px;
+}
+
+.tab_ment_main:nth-child(2) .tab_ment_left img,.tab_ment_main:nth-child(3) .tab_ment_left img {
+    height: 306px;
 }
 
 .tab_ment_main .tab_ment_right {
